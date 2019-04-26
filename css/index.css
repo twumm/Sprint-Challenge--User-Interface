@@ -193,7 +193,7 @@ header nav a {
 .about-top-content {
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding: 0 20px;
 }
 
 .about-middle-content {
@@ -201,6 +201,7 @@ header nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .about-middle-content section {
@@ -218,6 +219,10 @@ header nav a {
     margin-top: 10px;
 }
 
+.about-middle-content section img {
+    width: 99%;
+}
+
 .about-middle-content section button {
     font-size: 10px;
 	margin: 20px 0 10px 0;
@@ -229,6 +234,7 @@ header nav a {
 
 .about-bottom-content {
     margin: 20px 0;
+    padding: 0 20px;
 }
 
 footer {
