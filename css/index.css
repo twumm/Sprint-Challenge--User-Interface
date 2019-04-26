@@ -227,6 +227,10 @@ header nav a {
 	border-radius: 5px;
 }
 
+.about-bottom-content {
+    margin: 20px 0;
+}
+
 footer {
     width: 100%;
     background: black;
