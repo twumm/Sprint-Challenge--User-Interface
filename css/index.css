@@ -196,6 +196,24 @@ header nav a {
     padding-bottom: 20px;
 }
 
+.about-middle-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-middle-content section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
