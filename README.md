@@ -33,7 +33,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-Semantic HTML is HTML that makes our code easy to read and understand. Instead of constantly using div to structure your code, using semantic HTML like section, p and heading tags easily carries the meaning or intent of what the developer wants to achieve and describe with that bit of code.
+* Semantic HTML is HTML that makes our code easy to read and understand. Instead of constantly using div to structure your code, using semantic HTML like section, p and heading tags easily carries the meaning or intent of what the developer wants to achieve and describe with that bit of code.
 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
@@ -48,10 +48,10 @@ Semantic HTML is HTML that makes our code easy to read and understand. Instead o
 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-The cross axis
+* The cross axis
 
 5. Explain why git is valuable to a team of developers.
-Git allows teams to have control over which commit or features of the application gets into the master. It makes it possible for team members to play with the code as much as they would want when working on a feature knowing they can always discard their branches if they ever "mess up".
+* Git allows teams to have control over which commit or features of the application gets into the master. It makes it possible for team members to play with the code as much as they would want when working on a feature knowing they can always discard their branches if they ever "mess up".
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
