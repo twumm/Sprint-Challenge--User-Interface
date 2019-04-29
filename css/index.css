@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    align-content: center;
+}
+
+header nav a {
+	padding: 0 40px;
+	text-decoration: none;
+	color: black;
+}
+
+.home-top-image img {
+    width: 100%;
+    margin: 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +135,46 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +187,54 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* About Page CSS */
+.about-top-content {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.about-middle-content section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.about-middle-content section h5 {
+    margin-top: 10px;
+}
+
+.about-middle-content section img {
+    width: 99%;
+}
+
+.about-middle-content section button {
+    font-size: 10px;
+	margin: 20px 0 10px 0;
+	padding: 10px 30px;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.about-bottom-content {
+    margin: 20px 0;
+    padding: 0 20px;
 }
 
 footer {
